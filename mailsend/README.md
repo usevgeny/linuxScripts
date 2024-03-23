@@ -2,6 +2,13 @@
 
 This shell script is designed to generate and send emails in accordance with the RFC 5322 format. It takes three parameters: destination email address, subject, and body of the email.
 
+## Requiorements:
+
+ - Postfix: Mail Transfer Agent (MTA) for sending emails.
+ - Dovecot: IMAP and POP3 server for handling incoming emails.
+ Ensure Postfix and Dovecot are installed and properly configured on your system.
+ [Here you can find a great script by Luke Smith](https://github.com/lukesmithxyz/emailwiz) if you want to set up your own mail server.
+
 ## Usage
 
 Ensure you have the necessary permissions to execute the script. Then, run the script with the following command:
@@ -62,4 +69,3 @@ The script checks if the email was sent successfully. If there's an issue sendin
 ## Disclaimer
 
 This script is provided as-is without any warranty. Use it at your own risk.
-
